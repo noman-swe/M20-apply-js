@@ -11,3 +11,6 @@ console.log('Is My year leap year: ' + isMyYEarLeapYr);
 const yourYear = 2224;
 const isYourYearLeapYear = isLeapYear(yourYear);
 console.log('Is Your Year Leap Year: ' + isYourYearLeapYear);
+
+
+//(year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
